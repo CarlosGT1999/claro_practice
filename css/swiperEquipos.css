@@ -1,0 +1,77 @@
+.s2 {
+    position: absolute;
+    width: 60vw;
+    height: 100%;
+  }
+
+.ss2 {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    border-color: rgb(192, 188, 188);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    -webkit-box-shadow: -4px -6px 40px -22px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px -6px 40px -22px rgba(0,0,0,0.75);
+    box-shadow: -4px -6px 40px -22px rgba(0,0,0,0.75);
+  
+  }
+
+  .ss2 h1
+  {
+    color: rgb(11, 19, 59);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+  }
+  .ss2 .col-12 p
+  {
+   color: rgb(107, 105, 105);
+   display: block;
+   margin-bottom: 10px;
+   font-weight: normal;
+  }
+
+
+  .ss2 img {
+    display: block;
+    width: 160px;
+    height: 160px;   
+    max-width: 220px;
+    object-fit: cover;
+  }
+  .equipos .buttons-pagination
+  {
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+  }
+ 
+  .swiper-button-next,.swiper-button-prev
+  {
+    bottom: 0 !important;
+  }
+  .swiper-button-next
+  {
+    left: 70px !important;
+  }
+ 

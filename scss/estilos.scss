@@ -1,0 +1,12 @@
+
+$principal:#EE122C;
+
+//MODIFICANDO VALORES DE BOOTSTRAP
+
+$primary:$principal;
+
+    //STYLES FOR BUTTOMS
+$btn-border-radius: 20px;
+$btn-padding-y: 4px ;
+$btn-padding-x: 15px ;
+@import "../libs/bootstrap/scss/bootstrap.scss";

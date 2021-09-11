@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="scss/estilos.scss">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css.map">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiperEquipos.css">
+    <link rel="icon" type="image/png" href="img/logo.svg" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+    <title>Claro</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Claro</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Movil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hogar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Beneficios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">¿Necesitas ayuda?</a>
+              </li>
+                             
+            </ul>
+            <div class="d-flex justify-content-end">
+              <button type="button" class="btn btn-outline-light me-3 d-flex align-items-center" id="btn_miClaro">
+                <i class="fas fa-user" id="fas_user"></i>
+                <a class="nav-link fw-bold text-white" href="#">Mi claro</a>
+              </button>
+              <button type="button" class="btn btn-light me-3 d-flex align-items-center">
+                <img src="img/shop.svg" alt="">
+                <a class="nav-link fw-bold" href="#">Tienda</a>
+              </button>
+            </div>
+          </div>
+        </div>
+    </nav>
+   
+    
+    <section class="container-header">
+      
+      <picture id="header">
+        <source media="(min-width: 650px)" srcset="img/headerXL.jpg">
+        <source media="(min-width: 465px)" srcset="img/headerSM.jpg">
+        <!-- img tag for browsers that do not support picture element -->
+        <img src="img/headerSM.jpg" alt="a cute kitten" id="picimg">
+      </picture>
+
+        <div class="swiper s1 bg-white container-fluid d-flex justify-content-center">
+          <div class="container-fluid" id="fondo"></div>
+          <div class="swiper-wrapper">
+            
+            <!-- Slides -->
+            <div class="swiper-slide ">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 col-md-4">
+                    <p>Felices 200 años Perú</p>
+                    <h1 class="animate__animated animate__backInLeft">Hagamos realidad el Perú que soñamos</h1>
+                    <button type="button" class="btn btn-light me-3 d-flex align-items-center">
+                      <img src="img/shop.svg" alt="">
+                      <a class="nav-link fw-bold" href="#">Conoce más</a>
+                    </button>
+                  </div>
+                  <div class="col-12 col-md-8">
+                    <picture>
+                      <source media="(min-width: 650px)" srcset="img/ActivaTuChip-XL.png">
+                      <source media="(min-width: 465px)" srcset="img/ActivaTuChip-SM.png">
+                      <!-- img tag for browsers that do not support picture element -->
+                      <img src="img/ActivaTuChip-SM.png" alt="a cute kitten" id="picimg">
+                    </picture>
+                  </div>
+                </div>
+              </div>
+        
+            </div>
+
+            <div class="swiper-slide">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 col-md-4">
+                    <p>Felices 200 años Perú</p>
+                    <h1>Ser pospago Claro es un buen plan</h1>
+                    <button type="button" class="btn btn-light me-3 d-flex align-items-center">
+                      <img src="img/shop.svg" alt="">
+                      <a class="nav-link fw-bold" href="#">Conoce más</a>
+                    </button>
+                  </div>
+                  <div class="col-12 col-md-8">
+                    <picture>
+                      <source media="(min-width: 650px)" srcset="img/bicentenarioXL.png">
+                      <source media="(min-width: 465px)" srcset="img/bicentenarioSM.png">
+                      <!-- img tag for browsers that do not support picture element -->
+                      <img src="img/bicentenarioSM.png" alt="a cute kitten" id="picimg"> 
+                    </picture>
+                  </div>
+                </div>
+              </div>
+             
+              
+            </div>
+            <div class="swiper-slide">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 col-md-4">
+                    <p>Felices 200 años Perú</p>
+                    <h1>Cambiate facilito sin salir de casa</h1>
+                    <button type="button" class="btn btn-light me-3 d-flex align-items-center">
+                      <img src="img/shop.svg" alt="">
+                      <a class="nav-link fw-bold" href="#">Conoce más</a>
+                    </button>
+                  </div>
+                  <div class="col-12 col-md-8">
+                    <picture>
+                      <source media="(min-width: 350px)" srcset="img/buen-planXL.png">
+                      <source media="(min-width: 165px)" srcset="img/buen-planSM.png">
+                      <!-- img tag for browsers that do not support picture element -->
+                      <img src="img/buen-planSM.png" alt="a cute kitten" id="picimg"> 
+                    </picture>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            
+            </div>
+           
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination p1"></div>
+  
+
+    </section>
+        
+    <section class="QueDeseaHacer">
+      <p class="text-center mt-4 mb-4" id="title">¿Qué quieres hacer?</p>
+      <div class="container mt-5">
+        <div class="row" style="text-align: center;">
+          <div class="col-6 col-sm-4 col-xl-2">
+            <img src="img/cambiarme_claro.svg" alt="">
+            <p>Cambiarme a claro</p>
+          </div>
+          <div class="col-6 col-sm-4 col-xl-2">
+            <img src="img/agendar_cita.svg" alt="">
+            <p>Agendar una cita</p>
+          </div>
+          <div class="col-6 col-sm-4 col-xl-2">
+            <img src="img/recargar.svg" alt="">
+            <p>Recargar</p>
+          </div>
+          <div class="col-6 col-sm-4 col-xl-2">
+            <img src="img/paquetes.svg" alt="">
+            <p>Cambiarme a claro</p>
+          </div>
+          <div class="col-6 col-sm-4 col-xl-2">
+            <img src="img/activar_chip.svg" alt="">
+            <p>Agendar una cita</p>
+          </div>
+          <div class="col-6 col-sm-4 col-xl-2">
+            <img src="img/full_claro.svg" alt="">
+            <p>Recargar</p>
+          </div>
+        </div> 
+
+    </div>
+    </section>
+   
+    <section class="LoQueEstasBuscando">
+      <p class="text-center mt-5" id="title">Tenemos lo que estás buscando</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 my-2 ">
+            <img src="img/max_SM.jpg" alt="">
+            <h2>Postpago Max</h2>
+          </div>
+          <div class="col-12 col-md-4 my-2">
+            <img src="img/chevereSM.jpg" alt="">
+            <h2>Prepago Chévere</h2>
+          </div>
+          <div class="col-12 col-md-4 my-2">
+            <img src="img/hogarSM.jpg" alt="">
+            <h2>claro Hogar</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Swiper -->
+    <section class="equipos mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-3">
+            <p>TIENDA CLARO</p>
+            <h1 id="title_equipos">Los equipos más vendidos</h1>
+            <button type="button" class="btn me-3 mt-4 d-flex align-items-center bg-primary">
+                <a class="nav-link fw-bold text-white" href="#">Vamos a la tienda</a>
+            </button>
+            <div class="buttons-pagination">
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+            
+          </div>
+
+          <div class="col-12 col-md-9">
+            <div class="swiper s2" >
+              <div class="swiper-wrapper sw2">
+                <div class="swiper-slide ss2">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12 d-flex justify-content-center"><img src="img/SM_A225_GalaxyA22_Black.png" alt=""></div>
+                      <div class="col-12">
+                        <h1>Redmi Note 9 128GB Blanco. +Mi in-Ear HeadPhones</h1>
+                        <p>Precio antes <b>s/.980</b></p>
+                        <p>Max Ilimitado <b>65</b></p>
+                        <h1>s/779</h1>
+                      </div>
+                    </div>
+                  </div> 
+                </div>
+                <div class="swiper-slide ss2">
+                   <div class="container">
+                    <div class="row">
+                      <div class="col-12 d-flex justify-content-center"><img src="img/Motorola-Moto-G9-Power-Verde.png" alt=""></div>
+                      <div class="col-12">
+                        <h1>Redmi Note 9 128GB Blanco. +Mi in-Ear HeadPhones</h1>
+                        <p>Precio antes <b>s/.980</b></p>
+                        <p>Max Ilimitado <b>65</b></p>
+                        <h1>s/779</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide ss2">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12 d-flex justify-content-center"><img src="img/Vista_redmi10psd_10.png" alt=""></div>
+                      <div class="col-12">
+                        <h1>Redmi Note 9 128GB Blanco. +Mi in-Ear HeadPhones</h1>
+                        <p>Precio antes <b>s/.980</b></p>
+                        <p>Max Ilimitado <b>65</b></p>
+                        <h1>s/779</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide ss2">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12 d-flex justify-content-center"><img src="img/SM_A225_GalaxyA22_Black.png" alt=""></div>
+                      <div class="col-12">
+                        <h1>Redmi Note 9 128GB Blanco. +Mi in-Ear HeadPhones</h1>
+                        <p>Precio antes <b>s/.980</b></p>
+                        <p>Max Ilimitado <b>65</b></p>
+                        <h1>s/779</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide ss2">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12 d-flex justify-content-center"><img src="img/Motorola-Moto-G9-Power-Verde.png" alt=""></div>
+                      <div class="col-12">
+                        <h1>Redmi Note 9 128GB Blanco. +Mi in-Ear HeadPhones</h1>
+                        <p>Precio antes <b>s/.980</b></p>
+                        <p>Max Ilimitado <b>65</b></p>
+                        <h1>s/779</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide ss2">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12 d-flex justify-content-center"><img src="img/note9_ (1).png" alt=""></div>
+                      <div class="col-12">
+                        <h1>Redmi Note 9 128GB Blanco. +Mi in-Ear HeadPhones</h1>
+                        <p>Precio antes <b>s/.980</b></p>
+                        <p>Max Ilimitado <b>65</b></p>
+                        <h1>s/779</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide ss2">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12 d-flex justify-content-center"><img src="img/note9_ (1).png" alt=""></div>
+                      <div class="col-12">
+                        <h1>Redmi Note 9 128GB Blanco. +Mi in-Ear HeadPhones</h1>
+                        <p>Precio antes <b>s/.980</b></p>
+                        <p>Max Ilimitado <b>65</b></p>
+                        <h1>s/779</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide ss2">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12 d-flex justify-content-center"><img src="img/note9_ (1).png" alt=""></div>
+                      <div class="col-12">
+                        <h1>Redmi Note 9 128GB Blanco. +Mi in-Ear HeadPhones</h1>
+                        <p>Precio antes <b>s/.980</b></p>
+                        <p>Max Ilimitado <b>65</b></p>
+                        <h1>s/779</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide ss2">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12 d-flex justify-content-center"><img src="img/note9_ (1).png" alt=""></div>
+                      <div class="col-12">
+                        <h1>Redmi Note 9 128GB Blanco. +Mi in-Ear HeadPhones</h1>
+                        <p>Precio antes <b>s/.980</b></p>
+                        <p>Max Ilimitado <b>65</b></p>
+                        <h1>s/779</h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      
+ 
+      
+    </section>
+  
+
+    <section class="BeneficiosExclusivos mb-5">
+      <div class="container-fluid">
+        <div class="row w-50">
+         <h1>BENEFICIOS EXCLUSIVOS</h1>
+         <div class="d-flex justify-content-start">
+
+           <div class="d-inline">
+            <a id="btn_claroApp">
+              Mi Claro App
+            </a>
+             <div class="tempo"></div>
+           </div>
+
+          <div class="d-inline">
+            <a class="ms-3" id="btn_claroVideo">Mi Claro video</a>
+            <div class="tempo"></div>
+          </div>
+          
+          <div class="d-inline">
+            <a class="ms-3">Claro gaming</a>
+            <div class="tempo"></div>
+          </div>
+           
+          <div class="d-inline">
+            <a class="ms-3">Protección Móvil</a>
+            <div class="tempo"></div>
+          </div>
+           
+         </div>
+
+        </div>
+
+      
+        <div class="row mt-5" >
+          
+          <div class="col-6">
+
+              <h2>Con Mi Claro App la solución la tienes tú mismo</h2>
+              <p>Compra paquetes de megas, consulta tu saldo o paga tus recibos sin salir de casa.</p>
+              <button type="button" class="btn me-3 mt-4 d-flex align-items-center bg-primary">
+                <a class="nav-link fw-bold text-white" href="#">Más información</a>
+              </button>
+
+          </div>
+          <div class="col-6"><img src="img/beneficios-exclusivos28129.png" alt=""></div>  
+    
+        </div>
+
+        <!-- <div class="row mt-5" id="slider_claroVideo">
+          <div class="col-6">
+            <h2>Con Mi Claro App la solución la tienes tú mismo</h2>
+            <p>Compra paquetes de megas, consulta tu saldo o paga tus recibos sin salir de casa.</p>
+            <button type="button" class="btn me-3 mt-4 d-flex align-items-center bg-primary">
+              <a class="nav-link fw-bold text-white" href="#">Más información</a>
+            </button>
+          </div>
+          <div class="col-6"><img src="img/claroVideo.png" alt=""></div>     
+        </div> -->
+        
+      </div>
+    </section>
+  
+    <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+    <script src="js/efect_equipos_toogle.js"></script>
+</body>
+</html>
