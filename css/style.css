@@ -146,15 +146,31 @@ border-radius: 15px;
 }
 
 /* Section beneficios exclusivos */
+.BeneficiosExclusivos
+{
+    background: #283342;
+    
+}
+.header_beneficios
+{
+    color: white;
+   padding-left: 50px;
+   padding-top: 50px;
+   font-size: 12px;
+   width: 40%;
+   font-weight: bold;
+}
 .BeneficiosExclusivos .container-fluid
 {
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 380px;
     background: #283342;
     color: white;
     font-weight: bold;
-    padding: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
 }
 .BeneficiosExclusivos h1
 {
@@ -182,33 +198,38 @@ border-radius: 15px;
 
 .BeneficiosExclusivos img
 {
-    width: 45%;
-    height: 80%;
+    width: 47%;
+    height: 90%;
     position: absolute;
-    top: 30%;
-    transform: translateY(-25%);
-}
-#slider_claroVideoImg
-{
-    display: none;
+    top:-30px;
     
 }
-/* #slider_claroVideo img
-{
-    width: 45%;
-    height: 80%;
-    position: absolute;
-    top: 30%;
-    transform: translateY(-25%);
-    right: 70px;
-} */
-/* :root{--swiper-theme-color:white !important} */
 
-.tempo
+
+#slider_claroVideo,#slider_claroGaming,#slider_claroProteccion
 {
-    height: 4px;
+    display: none;
+}
+#contenido
+{
+   margin-top: 50px!important;
+   padding-right: 90px !important;
+}
+#contenido p
+{
+    font-weight: normal;
+}
+
+span.swiper-pagination-bullet {
+    background-color: white;
+    }
+
+.tempo-a
+{
+    height: 3px;
     width: 100%;
     background: red;
+    margin-top: 3px;
 }
 
 @media (max-width:780px)
