@@ -85,19 +85,19 @@ var btn_clickeado = 1;
     // {
     //     btn_claroVideo.click();
     // },6000)
-   function clickAutomatico()
-   {
+  //  function clickAutomatico()
+  //  {
     
-        setTimeout(()=>
-      {
+  //       setTimeout(()=>
+  //     {
       
-        $('#'+(btn_clickeado+1)).click();
+  //       $('#'+(btn_clickeado+1)).click();
         
         
-      },5000)
-    }
+  //     },5000)
+  //   }
 
-   clickAutomatico();
+  //  clickAutomatico();
   
 
   
