@@ -14,38 +14,36 @@ var btn_clickeado = 1;
 
 
     btn_app.click(function(){
-  
+
+       scrollToBeneficios();
         btn_app.css('color','white');
         $('#'+btn_clickeado).css('color','#79838A');
         btn_clickeado=1;
         
-        sliderClaroApp.show();
+        sliderClaroApp.fadeIn(2000);
         sliderClaroVideo.hide();
         sliderClaroGaming.hide();
         sliderClaroProteccion.hide();
-        clickAutomatico();
-      
+
     });
 
     btn_video.click(function(){
   
-      
+      scrollToBeneficios();
       btn_video.css('color','white');
       $('#'+btn_clickeado).css('color','#79838A');
       btn_clickeado=2;
     
-      sliderClaroVideo.show();
+      sliderClaroVideo.fadeIn(2000);
       sliderClaroApp.hide();
       sliderClaroGaming.hide();
       sliderClaroProteccion.hide();
-      clickAutomatico();
-      
-      
+
     });
 
 
     btn_gaming.click(function(){
-  
+     scrollToBeneficios();
       btn_gaming.css('color','white');
       $('#'+btn_clickeado).css('color','#79838A');
       btn_clickeado=3;
@@ -53,13 +51,13 @@ var btn_clickeado = 1;
       sliderClaroApp.hide();
       sliderClaroVideo.hide();
       sliderClaroProteccion.hide();
-      sliderClaroGaming.show();
-      clickAutomatico();
+      sliderClaroGaming.fadeIn(2000);
+   
       
     });
 
     btn_proteccion.click(function(){
-  
+      scrollToBeneficios();
       btn_proteccion.css('color','white');
       $('#'+btn_clickeado).css('color','#79838A');
       btn_clickeado=4;
@@ -67,38 +65,18 @@ var btn_clickeado = 1;
       sliderClaroApp.hide();
       sliderClaroVideo.hide();
       sliderClaroGaming.hide();
-      sliderClaroProteccion.show();
-      clickAutomatico();
-      btn_clickeado = 0;
-      setTimeout(()=>
-      {
-      
-        btn_proteccion.css('color','#79838A');
-        
-        
-      },5000)
-      
+      sliderClaroProteccion.fadeIn(2000);
+
       
     });
 
-    // setTimeout(()=>
-    // {
-    //     btn_claroVideo.click();
-    // },6000)
-   function clickAutomatico()
-   {
-    
-        setTimeout(()=>
-      {
-      
-        $('#'+(btn_clickeado+1)).click();
-        
-        
-      },5000)
-    }
-
-   clickAutomatico();
   
+  function scrollToBeneficios()
+  {
+    $('html, body').animate({
+      scrollTop: $("#BeneficiosExclusivos").offset().top
+      }, 1);
+  }
 
   
 

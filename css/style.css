@@ -232,6 +232,43 @@ span.swiper-pagination-bullet {
     margin-top: 3px;
 }
 
+/* Section Necesitas ayuda? */
+
+.headerNecesitasAyuda p
+{   
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 0px;
+
+}
+.NecesitasAyuda
+{
+    margin-top: 80px;
+}
+.NecesitasAyuda .col-12
+{
+    width: 180px;
+}
+.NecesitasAyuda .col-12 span
+{
+    color: #18A3BF;
+    font-weight: bold;
+}
+.NecesitasAyuda h4
+{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 13px;
+}
+
+.apps img
+{
+    width: 100%;
+    height: 250px;
+}
+
+
+
 @media (max-width:780px)
 {
     .swiper-slide picture img
