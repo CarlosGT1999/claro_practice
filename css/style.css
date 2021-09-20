@@ -231,7 +231,10 @@ span.swiper-pagination-bullet {
     background: red;
     margin-top: 3px;
 }
-
+#BeneficiosExclusivos
+{
+    margin-bottom: 100px;
+}
 /* Section Necesitas ayuda? */
 
 .headerNecesitasAyuda p
