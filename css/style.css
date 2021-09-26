@@ -308,12 +308,12 @@ span.swiper-pagination-bullet {
     }
 }
 
-@media (max-width:780px)
+@media (max-width:790px)
 {
     .swiper-slide picture img
     {
-        width: 90%;
-        height: 90%;
+        width: 80%;
+        height: 100%;
         margin-top: 10px;
     
     }
@@ -360,6 +360,19 @@ span.swiper-pagination-bullet {
 
 @media (max-width:650px)
 {
+    .swiper-slide picture img
+    {
+        width: 70%;
+        height: 90%;
+        margin-top: 10px;
+    
+    }
+    #fondo
+    {
+        height: 280px;
+      
+        
+    }
     .BeneficiosExclusivos img
     {
         width: 100%;
