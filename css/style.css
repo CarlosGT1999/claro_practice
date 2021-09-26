@@ -290,7 +290,7 @@ span.swiper-pagination-bullet {
     {
         width: 45%;
         height: 60%;
-        top: 80px;
+        top: 70px;
     }
     .header_beneficios
     {
@@ -328,8 +328,11 @@ span.swiper-pagination-bullet {
     }
     .swiper-slide .col-12 p
     {
-    text-align: center;
-    
+    text-align: center; 
+    }
+    .swiper-slide .col-md-4
+    {
+       height: 90px;
     }
     .swiper-slide .btn
     {
@@ -355,6 +358,10 @@ span.swiper-pagination-bullet {
         display: none !important;
     }
 
+    span.swiper-pagination-bullet {
+        background-color: red;
+        }
+    
  
 }
 
@@ -363,14 +370,13 @@ span.swiper-pagination-bullet {
     .swiper-slide picture img
     {
         width: 70%;
-        height: 90%;
+        height: 85%;
         margin-top: 10px;
     
     }
     #fondo
     {
-        height: 280px;
-      
+        height: 280px; 
         
     }
     .BeneficiosExclusivos img
@@ -383,6 +389,7 @@ span.swiper-pagination-bullet {
         z-index: 0;
         padding: 3%;
         object-fit: cover;
+        object-position: center center;
         
     }
 
@@ -394,13 +401,11 @@ span.swiper-pagination-bullet {
     position: absolute;
     bottom: 0 !important;
     right: 0 !important;
-  
-    background: rgba(0, 0, 0, 0.5);
     padding: 3%;
     margin: 3%;
-    height: 93.5%;
+
     
     }
-    
+ 
 
 }
