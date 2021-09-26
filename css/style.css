@@ -1,4 +1,13 @@
 
+#img_float
+{
+    position:fixed;
+    bottom: 50px;
+    right: 0;
+    width: 190px;
+    height: 120px;
+    z-index: 10;
+}
 .navbar
 {
     position: fixed;
@@ -57,8 +66,9 @@
 {
     width: 80%;
     height: 100%;
-    min-width: 350px;
-    min-height: 260px;
+    
+    min-width: 250px;
+    min-height: 100px;
     
 
 }
@@ -248,10 +258,10 @@ span.swiper-pagination-bullet {
 {
     margin-top: 80px;
 }
-.NecesitasAyuda .col-12
+/* .NecesitasAyuda .col-12
 {
     width: 180px;
-}
+} */
 .NecesitasAyuda .col-12 span
 {
     color: #18A3BF;
@@ -270,15 +280,42 @@ span.swiper-pagination-bullet {
     height: 250px;
 }
 
-
+@media (max-width:950px)
+{
+    .BeneficiosExclusivos h2
+    {
+        font-size: 25px;
+    }
+    .BeneficiosExclusivos img
+    {
+        width: 45%;
+        height: 60%;
+        top: 80px;
+    }
+    .header_beneficios
+    {
+      width: 100%;  
+    }
+    #contenido
+    {
+    margin-top: 50px!important;
+    padding-right: 10px !important;
+    
+    }
+    .BeneficiosExclusivos p
+    {
+        text-align: left;
+    }
+}
 
 @media (max-width:780px)
 {
     .swiper-slide picture img
     {
-        width: 328px;
-        height: 258px;
+        width: 90%;
+        height: 90%;
         margin-top: 10px;
+    
     }
     #fondo
     {
@@ -317,5 +354,40 @@ span.swiper-pagination-bullet {
     {
         display: none !important;
     }
+
+ 
+}
+
+@media (max-width:650px)
+{
+    .BeneficiosExclusivos img
+    {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        position: absolute;
+        right: 0;
+        z-index: 0;
+        padding: 3%;
+        object-fit: cover;
+        
+    }
+
+
+    #contenido
+    {
+    margin-top: 0 !important;
+    z-index: 1;
+    position: absolute;
+    bottom: 0 !important;
+    right: 0 !important;
+  
+    background: rgba(0, 0, 0, 0.5);
+    padding: 3%;
+    margin: 3%;
+    height: 93.5%;
+    
+    }
+    
 
 }
