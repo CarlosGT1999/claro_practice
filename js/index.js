@@ -5,11 +5,14 @@ var swiper = new Swiper('.s1', {
     direction: 'horizontal',
     loop: true,
     spaceBetween: 500,
+    
   
     // If we need pagination
     pagination: {
         el: '.p1',
         type: 'bullets',
+        clickable : 'true',
+        bulletClass :'swiper-pagination-bullet uno'
         
       },
   
@@ -30,10 +33,13 @@ var swiper = new Swiper('.s1', {
     slidesPerView: 1,
     spaceBetween: 10,
     loop: true,
-    // pagination: {
-    //   el: ".p2",
-    //   clickable: true,
-    // },
+    pagination: {
+      el: '.p2',
+      type: 'bullets',
+      clickable : 'true',
+      bulletClass :'swiper-pagination-bullet dos'
+      
+    },
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
