@@ -1,9 +1,12 @@
-
+body
+{
+    overflow-x: hidden;
+}
 #img_float
 {
     position:fixed;
     bottom: 50px;
-    right: 0;
+    right: -40px;
     width: 190px;
     height: 120px;
     z-index: 10;
@@ -214,6 +217,12 @@ border-radius: 15px;
     height: 90%;
     position: absolute;
     top:-30px;
+    border-radius: 20px;
+    
+}
+#header_beneficios .d-inline
+{
+    min-width: fit-content;
     
 }
 
@@ -294,6 +303,8 @@ span.swiper-pagination-bullet.dos
     .BeneficiosExclusivos h2
     {
         font-size: 25px;
+        padding-right: 0;
+        margin-bottom: 0;
     }
     .BeneficiosExclusivos img
     {
@@ -303,7 +314,8 @@ span.swiper-pagination-bullet.dos
     }
     .header_beneficios
     {
-      width: 100%;  
+      width: 100%;
+      padding: 10px !important;  
     }
     #contenido
     {
@@ -314,6 +326,27 @@ span.swiper-pagination-bullet.dos
     .BeneficiosExclusivos p
     {
         text-align: left;
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+    .BeneficiosExclusivos button
+    {
+        margin-top: 10px !important;
+        padding: 5px !important;
+    }
+    #header_beneficios
+    {
+    
+        overflow-x: auto;
+    }
+    #header_beneficios .d-inline
+    {
+        min-width: fit-content;
+        
+    }
+    #header_beneficios::-webkit-scrollbar
+    {
+        width: 0;
     }
 }
 
@@ -378,7 +411,22 @@ span.swiper-pagination-bullet.dos
     span.swiper-pagination-bullet.uno {
         background-color: red;
         }
+    .header_beneficios h1
+    {
+        display: flex;
+        justify-content: center; 
+        font-size: 20px;   
+        font-weight: bold;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }       
     
+    #img_float
+    {
+       
+        width: 170px;
+        height: 100px;
+    }
  
 }
 
