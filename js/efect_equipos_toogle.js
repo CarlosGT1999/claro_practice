@@ -78,6 +78,14 @@ var btn_clickeado = 1;
       }, 1);
   }
 
+  // Query para mostrar anclas
+  var btn_ancla1 = $('#btn_showAnclas1')
+  var anclas1 =$('#anclas1')
+ 
+  btn_ancla1.click(function(){
+     anclas1.toggle(1000);
   
+  });
+
 
    

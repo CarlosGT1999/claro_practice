@@ -186,6 +186,7 @@ border-radius: 15px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 10px;
+    
 }
 .BeneficiosExclusivos h1
 {
@@ -216,8 +217,9 @@ border-radius: 15px;
     width: 47%;
     height: 90%;
     position: absolute;
-    top:-30px;
+    top:-20px;
     border-radius: 20px;
+    right: 50px;
     
 }
 #header_beneficios .d-inline
@@ -272,7 +274,10 @@ span.swiper-pagination-bullet.dos
 
 
 /* Section Necesitas ayuda? */
-
+.NecesitasAyuda .header
+{
+    margin-bottom: 50px;
+}
 .NecesitasAyuda .header p
 {   
     font-size: 12px;
@@ -327,9 +332,64 @@ span.swiper-pagination-bullet.dos
     height: 250px;
 }
 
+/* Section ClaroApps */
+.ClaroApps
+{
+    margin-top: 50px;
+}
+
+.ClaroApps .imgPhone img
+{
+    width:100%;
+}
+.ClaroApps .imgAppStorage img
+{
+    width: 40%;
+    margin-top: 10px;
+}
+.ClaroApps .card
+{
+    border: 1px solid rgba(216, 191, 216, 0.39);
+    padding: 20px;
+    border-radius: 20px;
+}
+/* Footer */
+
+footer
+{
+    color: white;
+}
+footer h4
+{
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    width: 80%;
+    padding-bottom: 10px;
+}
+footer  a
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 8px;
+}
+footer h4 span
+{
+    display: none;
+    cursor: pointer;
+}
+
 @media (max-width:950px)
 {
-    
+    footer .anclas
+    {
+        display: none;
+    }
+    footer h4 span
+    {
+        display: initial;
+    }
     .BeneficiosExclusivos h2
     {
         font-size: 25px;
@@ -339,7 +399,7 @@ span.swiper-pagination-bullet.dos
     .BeneficiosExclusivos img
     {
         width: 45%;
-        top: 70px;
+        top: 10px;
     }
     .header_beneficios
     {
@@ -471,7 +531,7 @@ span.swiper-pagination-bullet.dos
     }
     .BeneficiosExclusivos img
     {
-        filter: brightness(80%);
+        filter: brightness(90%);
     }
  
 }
