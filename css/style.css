@@ -513,7 +513,11 @@ footer h4 span
     .equipos h1,p
     {
         text-align: center;
-        
+               
+    }
+    .equipos
+    {
+        margin-top: 50px !important;
     }
     #title_equipos
     {
@@ -564,6 +568,10 @@ footer h4 span
     .BeneficiosExclusivos img
     {
         filter: brightness(90%);
+    }
+    .LoQueEstasBuscando #title
+    {
+        margin-top: 10px !important;
     }
  
 }
@@ -632,7 +640,7 @@ footer h4 span
 
     @media (max-width:480px)
     {
-        .swiper-slide p
+        .s1 p
         {
             margin-top: -20px;
         }
