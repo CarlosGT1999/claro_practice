@@ -572,7 +572,7 @@ footer h4 span
 {
     .ClaroApps .imgAppStorage img
     {
-        width: 50%;
+        width: 80%;
         margin-top: 10px;
     }
     .swiper-slide
@@ -588,8 +588,11 @@ footer h4 span
     {
         width: 70%;
         height: 85%;
-        margin-top: 10px;
 
+    }
+    .swiper-slide p
+    {
+        margin-top: 10px;
     }
     #fondo
     {
@@ -627,6 +630,12 @@ footer h4 span
 
     }
 
- 
+    @media (max-width:480px)
+    {
+        .swiper-slide p
+        {
+            margin-top: -20px;
+        }
+    }
 
 }
