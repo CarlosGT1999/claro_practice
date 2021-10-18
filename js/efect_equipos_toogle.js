@@ -79,13 +79,36 @@ var btn_clickeado = 1;
   }
 
   // Query para mostrar anclas
+
   var btn_ancla1 = $('#btn_showAnclas1')
+  var btn_ancla2 = $('#btn_showAnclas2')
+  var btn_ancla3 = $('#btn_showAnclas3')
+
+
   var anclas1 =$('#anclas1')
+  var anclas2 =$('#anclas2')
+  var anclas3 =$('#anclas3')
  
   btn_ancla1.click(function(){
      anclas1.toggle(1000);
-  
+     anclas2.hide(500);
+     anclas3.hide(500);
+
   });
+
+  btn_ancla2.click(function(){
+    anclas2.toggle(1000);
+    anclas1.hide(500);
+     anclas3.hide(500);
+
+ });
+
+ btn_ancla3.click(function(){
+  anclas3.toggle(1000);
+  anclas2.hide(500);
+  anclas1.hide(500);
+
+});
 
 
    

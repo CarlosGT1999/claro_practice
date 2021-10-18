@@ -337,10 +337,15 @@ span.swiper-pagination-bullet.dos
 {
     margin-top: 50px;
 }
+.ClaroApps .imgPhone
+{
+    display: flex;
+    align-items: center;
+}
 
 .ClaroApps .imgPhone img
 {
-    width:100%;
+    width:120%;
 }
 .ClaroApps .imgAppStorage img
 {
@@ -350,14 +355,22 @@ span.swiper-pagination-bullet.dos
 .ClaroApps .card
 {
     border: 1px solid rgba(216, 191, 216, 0.39);
-    padding: 20px;
+    padding: 20px 10px;
     border-radius: 20px;
+    margin-top: 20px;
+
 }
+
 /* Footer */
 
 footer
 {
     color: white;
+}
+footer p
+{
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 footer h4
 {
@@ -382,6 +395,16 @@ footer h4 span
 
 @media (max-width:950px)
 {
+    .ClaroApps p
+    {
+        text-align: left;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .ClaroApps h2
+    {
+        font-size: 20px;
+    }
     footer .anclas
     {
         display: none;
@@ -436,6 +459,15 @@ footer h4 span
     #header_beneficios::-webkit-scrollbar
     {
         width: 0;
+    }
+    footer .header
+    {
+        width: 100%;
+        text-align: center;
+    }
+    footer .header img
+    {
+        text-align: center;
     }
 }
 
@@ -538,6 +570,11 @@ footer h4 span
 
 @media (max-width:650px)
 {
+    .ClaroApps .imgAppStorage img
+    {
+        width: 50%;
+        margin-top: 10px;
+    }
     .swiper-slide
     {
         
