@@ -78,7 +78,7 @@ var btn_clickeado = 1;
       }, 1);
   }
 
-  // Query para mostrar anclas
+  // Query para mostrar anclas en el footer
 
   var btn_ancla1 = $('#btn_showAnclas1')
   var btn_ancla2 = $('#btn_showAnclas2')
@@ -109,6 +109,28 @@ var btn_clickeado = 1;
   anclas1.hide(500);
 
 });
+
+//Query para mostrar submenus en el navbar
+
+$('#item_movil').hover(function(){
+  $('.subMenuMobil').slideDown(500);
+  $('.fondoSubMenu').show();
+});
+
+$('.fondoSubMenu').hover(function(){
+  $('.subMenuMobil').slideUp(500);
+  $('.fondoSubMenu').hide();
+});
+
+//Detectar item del submenú en el navbar al que se le hizo hover
+let mundo_movil = $('#mundo_movil img');
+let movil_postpago = $('#movil_postpago');
+let movil_prepago = $('#movil_prepago')
+$('#mundo_movil').hover(function(){
+  // movil_postpago.css("filter","invert(100%)");
+})
+
+
 
 
    

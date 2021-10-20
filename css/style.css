@@ -236,7 +236,7 @@ border-radius: 15px;
 #contenido
 {
    margin-top: 50px!important;
-   padding-right: 90px !important;
+   padding-right: 90px;
 }
 #contenido p
 {
@@ -358,6 +358,7 @@ span.swiper-pagination-bullet.dos
     padding: 20px 10px;
     border-radius: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 
@@ -391,6 +392,56 @@ footer h4 span
 {
     display: none;
     cursor: pointer;
+}
+
+/* Submenus */
+.subMenuMobil
+{
+    background: white;
+    width: 90%;
+    position: fixed;
+    top: 71px;
+    z-index: 100;
+    left: 5%;
+    border-radius: 0 0 22px 22px;
+    display: none;
+}
+.subMenuMobil .col
+{
+    text-align: center;
+}
+.subMenuMobil p
+{
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333D4C;
+    font-size: 15px;
+}
+.subMenuMobil img
+{
+    height: 48px;
+}
+
+/* modal submenu */
+.fondoSubMenu
+{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+    z-index: 49;
+    display: none;
+
+}
+.subMenuMobil .col:hover
+{
+    cursor: pointer;
+}
+.subMenuMobil img:hover
+{
+    transform:scale(1.15);
+    transition-duration: 0.7s;
 }
 
 @media (max-width:950px)
@@ -569,10 +620,7 @@ footer h4 span
     {
         filter: brightness(90%);
     }
-    .LoQueEstasBuscando #title
-    {
-        margin-top: 10px !important;
-    }
+  
  
 }
 
@@ -631,6 +679,8 @@ footer h4 span
     right: 0 !important;
     padding: 3%;
     margin: 3%;
+    text-align: left;
+    width: 90%;
     }
     #header_beneficios
     {
@@ -638,12 +688,16 @@ footer h4 span
 
     }
 
-    @media (max-width:480px)
+    .LoQueEstasBuscando
     {
-        .s1 p
-        {
-            margin-top: -20px;
-        }
+        margin-top: 50px !important;
     }
 
+}
+@media (max-width:480px)
+{
+    .s1 p
+    {
+        margin-top: -20px;
+    }
 }
